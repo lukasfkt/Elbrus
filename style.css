@@ -1,0 +1,582 @@
+* {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+}
+
+header {
+  place-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: black;
+  width: 100%;
+  height: 153px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header nav {
+  margin: auto 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav li {
+  padding-right: 98px;
+}
+
+header nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+header nav a:hover {
+  color: #c78c19;
+  text-decoration: underline;
+}
+
+#Logo-inicial {
+  width: 235.01px;
+  height: 46px;
+}
+
+.descricao-elibrus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.descricao-elibrus .texto-elibrus {
+  margin-top: 263px;
+  background-color: #efefef;
+  height: 772px;
+  width: 70vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 22px;
+}
+
+.descricao-elibrus .texto-elibrus .textos-juntos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.descricao-elibrus .texto-elibrus .textos-juntos .texto-atras {
+  font-weight: 700;
+  font-size: 280px;
+  position: absolute;
+  opacity: 0.03;
+}
+
+.descricao-elibrus .texto-elibrus .textos-juntos h1 {
+  font-size: 120px;
+  font-weight: 700;
+  padding-bottom: 100px;
+}
+
+.descricao-elibrus .texto-elibrus p {
+  text-align: justify;
+  font-weight: 400;
+  font-size: 18px;
+  width: 461px;
+  padding-bottom: 20px;
+}
+
+.descricao-elibrus .imagem-pessoas-elibrus {
+  margin-top: 222px;
+  z-index: 5;
+}
+
+.descricao-elibrus .imagem-pessoas-elibrus img {
+  left: 54vw;
+  position: absolute;
+}
+
+.missaoevisao-elibrus {
+  position: relative;
+  height: 1000px;
+}
+
+.missaoevisao-elibrus .fundo-missao {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 1000px;
+}
+
+.missaoevisao-elibrus .fundo-palavras-missao {
+  right: 0px;
+  z-index: 0;
+  position: absolute;
+  font-size: 280px;
+  font-weight: 700;
+  opacity: 0.05;
+  color: #ffffff;
+  letter-spacing: 0.3em;
+}
+
+.missaoevisao-elibrus .missao-elibrus {
+  margin-bottom: 157px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.missaoevisao-elibrus .missao-elibrus .imagem-missao img {
+  position: absolute;
+  left: 400px;
+  top: -61px;
+  z-index: 5;
+}
+
+.missaoevisao-elibrus .missao-elibrus .texto-missao {
+  padding-left: 50px;
+  margin-top: 141px;
+  width: 530px;
+}
+
+.missaoevisao-elibrus .missao-elibrus .texto-missao h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 29px;
+}
+
+.missaoevisao-elibrus .missao-elibrus .texto-missao p {
+  text-align: justify;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.missaoevisao-elibrus .missao-elibrus .texto-missao h2,
+.missaoevisao-elibrus .missao-elibrus .texto-missao p {
+  text-align: justify;
+  font-size: 12px;
+  letter-spacing: 0.3em;
+  text-align: justify;
+  color: #ffffff;
+  z-index: 5;
+}
+
+.missaoevisao-elibrus .fundo-palavras-visao {
+  left: 131px;
+  z-index: 0;
+  position: absolute;
+  font-size: 280px;
+  font-weight: 700;
+  opacity: 0.05;
+  color: #ffffff;
+  letter-spacing: 0.3em;
+}
+
+.missaoevisao-elibrus .visao-elibrus {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.missaoevisao-elibrus .visao-elibrus .imagem-missao-visao img {
+  position: absolute;
+  left: 54vw;
+  top: 55px;
+  z-index: 5;
+}
+
+.missaoevisao-elibrus .visao-elibrus .texto-missao {
+  padding-right: 50px;
+  margin-top: 141px;
+  width: 530px;
+}
+
+.missaoevisao-elibrus .visao-elibrus .texto-missao h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 29px;
+}
+
+.missaoevisao-elibrus .visao-elibrus .texto-missao p {
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.missaoevisao-elibrus .visao-elibrus .texto-missao h2,
+.missaoevisao-elibrus .visao-elibrus .texto-missao p {
+  font-size: 12px;
+  letter-spacing: 0.3em;
+  text-align: justify;
+  color: #ffffff;
+  z-index: 5;
+}
+
+.valores-elibrus {
+  margin-top: 197px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin-bottom: 272px;
+}
+
+.valores-elibrus .image-valores img {
+  position: absolute;
+  z-index: -1;
+}
+
+.valores-elibrus .texto-valores {
+  margin-left: 200px;
+  width: 461px;
+}
+
+.valores-elibrus .texto-valores .textos-juntos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.valores-elibrus .texto-valores .textos-juntos .texto-atras {
+  margin-top: 40px;
+  left: 200px;
+  letter-spacing: 0.2em;
+  font-weight: 700;
+  font-size: 280px;
+  position: absolute;
+  opacity: 0.03;
+}
+
+.valores-elibrus .texto-valores .textos-juntos > h1 {
+  font-size: 12px;
+  line-height: 30px;
+  letter-spacing: 0.3em;
+  margin-bottom: 40px;
+}
+
+.valores-elibrus .texto-valores p {
+  text-align: justify;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #111111;
+  z-index: 5;
+}
+
+.rodape-pagina {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.imagem-rodape img {
+  -o-object-fit: fill;
+     object-fit: fill;
+  width: 1495px;
+  height: 502px;
+  z-index: 1;
+  position: absolute;
+  right: 0;
+}
+
+.imagem-rodape .icone-instagram {
+  z-index: 5;
+  width: 1vw;
+  height: 1.5vh;
+  background-color: white;
+  position: absolute;
+  top: 401px;
+  right: 300px;
+}
+
+.imagem-rodape .icone-facebook {
+  z-index: 5;
+  width: 1vw;
+  height: 1.5vh;
+  background-color: white;
+  position: absolute;
+  top: 401px;
+  right: 270px;
+}
+
+.historiaDescricao-elibrus .historia-elibrus {
+  margin-bottom: 178px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.historiaDescricao-elibrus .historia-elibrus .titulo-historia {
+  margin-left: 20vw;
+  width: 496px;
+}
+
+.historiaDescricao-elibrus .historia-elibrus .titulo-historia h1 {
+  font-size: 120px;
+  line-height: 120px;
+  font-weight: 700;
+  color: #111111;
+}
+
+.historiaDescricao-elibrus .historia-elibrus .descricao-historia {
+  margin-right: 23vw;
+  width: 461px;
+}
+
+.historiaDescricao-elibrus .historia-elibrus .descricao-historia p {
+  font-size: 18px;
+  text-align: justify;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.historiaDescricao-elibrus .anderson-peres {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.historiaDescricao-elibrus .anderson-peres .img-peres {
+  margin-left: 26vw;
+}
+
+.historiaDescricao-elibrus .anderson-peres .descricao-andersonperes {
+  margin-right: 23vw;
+  width: 461px;
+}
+
+.historiaDescricao-elibrus .anderson-peres .descricao-andersonperes h1,
+.historiaDescricao-elibrus .anderson-peres .descricao-andersonperes p {
+  color: #111111;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.historiaDescricao-elibrus .anderson-peres .descricao-andersonperes h1 {
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.historiaDescricao-elibrus .anderson-peres .descricao-andersonperes p {
+  font-weight: 400;
+}
+
+.alaor-rambo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 376px;
+}
+
+.alaor-rambo .descricao-alaor {
+  margin-left: 19vw;
+  width: 460px;
+}
+
+.alaor-rambo .descricao-alaor h1,
+.alaor-rambo .descricao-alaor p {
+  color: #111111;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.alaor-rambo .descricao-alaor h1 {
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.alaor-rambo .descricao-alaor p {
+  font-weight: 400;
+}
+
+.alaor-rambo .img-alaor {
+  margin-right: 27vw;
+}
+
+.rodape-geral {
+  height: 502px;
+  padding-left: 120px;
+  left: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #111111;
+  position: absolute;
+}
+
+.logos {
+  padding-bottom: 50px;
+}
+
+#Logo-final {
+  width: 255px;
+}
+
+#XP {
+  width: 70px;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.link-endereco {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.link-endereco .links {
+  z-index: 5;
+  text-align: left;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.link-endereco .links li {
+  list-style-type: none;
+  padding-bottom: 6px;
+  letter-spacing: 5px;
+}
+
+.link-endereco .links li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.link-endereco .links li a:hover {
+  color: #c78c19;
+  text-decoration: underline;
+}
+
+.enderecos {
+  z-index: 5;
+}
+
+.enderecos p {
+  color: white;
+  font-size: 14px;
+}
+
+.logos {
+  padding-top: 100px;
+}
+
+.logos img + img {
+  margin-left: 80px;
+}
+
+.titulo-endereco {
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+}
+
+.endereco-frase {
+  padding-bottom: 15px;
+}
+
+.redes-sociais {
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 18px;
+}
+
+.redes-sociais .linha {
+  background-color: white;
+  position: absolute;
+  height: 1px;
+  width: 80vw;
+  z-index: 10;
+}
+
+.politicas {
+  font-size: 10px;
+  color: #ffffff;
+  padding-bottom: 28px;
+}
+
+.politicas ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.politicas ul li {
+  z-index: 5;
+  list-style-type: none;
+  padding-right: 10px;
+}
+
+.politicas ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.politicas ul li a:hover {
+  color: #c78c19;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.css.map */
