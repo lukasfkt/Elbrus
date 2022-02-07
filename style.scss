@@ -235,34 +235,34 @@ header {
 .rodape-pagina {
   position: relative;
   display: flex;
-}
-
-.imagem-rodape {
-  img {
-    object-fit: fill;
-    width: 1495px;
-    height: 502px;
-    z-index: 1;
-    position: absolute;
-    right: 0;
-  }
-  .icone-instagram {
-    z-index: 5;
-    width: 1vw;
-    height: 1.5vh;
-    background-color: white;
-    position: absolute;
-    top: 401px;
-    right: 300px;
-  }
-  .icone-facebook {
-    z-index: 5;
-    width: 1vw;
-    height: 1.5vh;
-    background-color: white;
-    position: absolute;
-    top: 401px;
-    right: 270px;
+  .imagem-rodape {
+    img:first-of-type {
+      object-fit: fill;
+      width: 1495px;
+      height: 502px;
+      z-index: 1;
+      position: absolute;
+      right: 0;
+    }
+    > img {
+      height: 20px;
+    }
+    .instagram {
+      .icone-instagram {
+        margin-top: 390px;
+        margin-right: 304px;
+        width: 18px;
+        height: 18px;
+      }
+    }
+    .facebook {
+      .icone-facebook {
+        margin-top: 390px;
+        margin-right: 330px;
+        width: 18px;
+        height: 18px;
+      }
+    }
   }
 }
 
@@ -455,6 +455,14 @@ header {
         color: #c78c19;
         text-decoration: underline;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .historiaDescricao-elibrus {
+    .historia-elibrus {
+      flex-direction: column;
     }
   }
 }

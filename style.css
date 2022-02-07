@@ -303,7 +303,7 @@ header nav a:hover {
   display: flex;
 }
 
-.imagem-rodape img {
+.rodape-pagina .imagem-rodape img:first-of-type {
   -o-object-fit: fill;
      object-fit: fill;
   width: 1495px;
@@ -313,24 +313,22 @@ header nav a:hover {
   right: 0;
 }
 
-.imagem-rodape .icone-instagram {
-  z-index: 5;
-  width: 1vw;
-  height: 1.5vh;
-  background-color: white;
-  position: absolute;
-  top: 401px;
-  right: 300px;
+.rodape-pagina .imagem-rodape > img {
+  height: 20px;
 }
 
-.imagem-rodape .icone-facebook {
-  z-index: 5;
-  width: 1vw;
-  height: 1.5vh;
-  background-color: white;
-  position: absolute;
-  top: 401px;
-  right: 270px;
+.rodape-pagina .imagem-rodape .instagram .icone-instagram {
+  margin-top: 390px;
+  margin-right: 304px;
+  width: 18px;
+  height: 18px;
+}
+
+.rodape-pagina .imagem-rodape .facebook .icone-facebook {
+  margin-top: 390px;
+  margin-right: 330px;
+  width: 18px;
+  height: 18px;
 }
 
 .historiaDescricao-elibrus .historia-elibrus {
@@ -578,5 +576,14 @@ header nav a:hover {
 .politicas ul li a:hover {
   color: #c78c19;
   text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  .historiaDescricao-elibrus .historia-elibrus {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=style.css.map */
