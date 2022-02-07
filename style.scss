@@ -1,6 +1,7 @@
 * {
   font-family: 'Raleway', sans-serif;
   margin: 0;
+  padding: 0;
 }
 
 header {
@@ -77,6 +78,8 @@ header {
     margin-top: 222px;
     z-index: 5;
     img {
+      width: 512px;
+      height: 604px;
       left: 54vw;
       position: absolute;
     }
@@ -106,18 +109,18 @@ header {
     margin-bottom: 157px;
     position: relative;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     .imagem-missao {
       img {
-        position: absolute;
-        left: 400px;
-        top: -61px;
+        margin-right: 109px;
+        width: 359px;
+        height: 463px;
+        margin-top: -61px;
         z-index: 5;
       }
     }
     .texto-missao {
-      padding-left: 50px;
-      margin-top: 141px;
       width: 530px;
       h2 {
         text-transform: uppercase;
@@ -151,20 +154,19 @@ header {
     letter-spacing: 0.3em;
   }
   .visao-elibrus {
-    position: relative;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     .imagem-missao-visao {
       img {
-        position: absolute;
-        left: 54vw;
-        top: 55px;
+        height: 553px;
+        width: 400px;
         z-index: 5;
+        margin-left: 138px;
       }
     }
     .texto-missao {
-      padding-right: 50px;
-      margin-top: 141px;
+      margin-bottom: 220px;
       width: 530px;
       h2 {
         text-transform: uppercase;
@@ -193,10 +195,10 @@ header {
   align-items: center;
   position: relative;
   margin-bottom: 272px;
-  .image-valores {
+  .imagem-valores {
     img {
-      position: absolute;
-      z-index: -1;
+      width: 784px;
+      height: 440px;
     }
   }
   .texto-valores {
@@ -298,6 +300,8 @@ header {
     align-items: center;
     justify-content: space-between;
     .img-peres {
+      width: 323px;
+      height: 484px;
       margin-left: 26vw;
     }
     .descricao-andersonperes {
@@ -345,6 +349,8 @@ header {
     }
   }
   .img-alaor {
+    width: 323px;
+    height: 484px;
     margin-right: 27vw;
   }
 }
